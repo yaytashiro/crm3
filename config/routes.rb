@@ -1,17 +1,5 @@
 Rails.application.routes.draw do
-  get 'customers/index'
-
-  get 'customers/show'
-
-  get 'customers/upate'
-
-  get 'customers/destroy'
-
-  get 'customers/create'
-
-  get 'customers/new'
-
-  get 'customers/edit'
+  resources :customers
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
